@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    ;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    //              font-family: 'Roboto Slab', serif;
+}
+
+
+$yellow: #ffaf02;
+
+.container-bg {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+
+}
+
+.header {
+    .container-bg {
+        background-image: url(../images/header.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+
+    .logo-title {
+        font-size: 15px;
+        margin-left: 30px;
+        max-width: 170px;
+        line-height: 17px;
+    }
+}
+
+.header__call {
+    max-height: 45px;
+    display: flex;
+    justify-content: space-between;
+
+
+    span {
+        display: block;
+
+        font-size: 13px;
+    }
+
+    .header__phone-tel {
+        font-size: 17px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 800;
+        line-height: 17px;
+        letter-spacing: 1px;
+    }
+
+    .header__btn {
+        font-size: 11px;
+        margin-left: 20px;
+        font-weight: 800;
+        color: #fff;
+        background-color: $yellow;
+        padding: 15px 30px;
+        display: inline-block;
+        border-radius: 20px;
+        text-align: right;
+        text-transform: uppercase;
+    }
+
+}
+
+.header__bottom {
+    padding-top: 59px;
+}
+
+.header__bottom-title {
+    font-size: 57px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 118px;
+    font-weight: 800;
+    max-width: 470px;
+}
+
+.header__bottom-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 800;
+    max-width: 470px;
+    letter-spacing: 0;
+
+}
+
+
+.header__botton-inners {
+    padding-top: 80px;
+
+    &:nth-child(2) {
+        max-width: 470px;
+    }
+
+    .header__inner {
+        display: flex;
+        padding-bottom: 30px;
+        max-width: 600px;
+
+    }
+
+    .header__inner-right {
+        padding-left: 30px;
+
+    }
+
+    .header__inner-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    .header__inner-text {
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+
+.consultation {
+
+    .container-bg {
+        background-image: url(../images/child-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.consultation__box {
+    text-align: center;
+    padding-top: 90px;
+    height: 580px;
+
+    .box-inner__title {
+        font-family: 'Roboto Slab', serif;
+        font-size: 26px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+
+    .box-inner__text {
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 37px;
+        letter-spacing: .1;
+        padding-bottom: 60px;
+    }
+}
+
+.box {
+    padding-top: 70px;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 875px;
+        height: 20px;
+        background-image: url(../images/z-line.png);
+
+        background-repeat: no-repeat;
+        top: 0;
+        left: 160px;
+
+    }
+}
+.box-title{
+    font-size: 16px;
+    line-height: 27px;
+}
+.box-set {
+    padding: 40px 150px 45px 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+    input {
+        outline: none;
+        border-radius: 30px;
+        padding: 20px 0px 20px 60px;
+        width: 270p x;
+
+    }
+
+    .box-input {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            background-image: url(../images/avatar.png);
+            background-position: left;
+            height: 22px;
+            width: 18px;
+            top: 17px;
+            left: 25px;
+        }
+    }
+
+    .phone-input {
+        &::before {
+            background-image: url(../images/phone.png);
+        }
+    }
+    .box-btn{
+        width: 270px;
+        background-color: $yellow;
+        text-align: center;
+        border-radius: 30px;
+        padding: 22px 0px;
+        color: #fff ;
+    }
+}
+
+.box-subtitle{
+  font-size: 16px;  
+  line-height: 20px;
+  span{
+    font-family: 'Roboto Slab', serif;
+      font-size: 20px;
+      line-height: 27px;
+      font-weight: 800;
+      padding-left: 45px;
+      margin-left: 30px;
+      position: relative;
+      &::before{
+          content: '';
+          position: absolute;
+          background-image: url(../images/call.png);
+          height: 32px;
+          width: 32px;
+          top: 0;
+          left: 0;
+
+      }
+  }
+}
