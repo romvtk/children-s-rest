@@ -1,0 +1,447 @@
+@media (max-width:1170px) {
+    .training .box__inner {
+        max-width: 180px;
+        padding-top: 25px;
+    }
+
+    .training .box__inner+.box__inner::before {
+        left: -50px;
+        top: 115px;
+    }
+
+    .training .box__inner .box__inner-title {
+        line-height: 30px;
+    }
+
+}
+
+@media (max-width:1140px) {
+    .advantages .advantages__inner::before {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width:1109px) {
+    .box-set {
+        flex-wrap: wrap;
+    }
+
+    .box-set .box-btn {
+        margin: 15px auto;
+    }
+
+    .box-set .box-input {
+        margin: 15px auto;
+    }
+
+    .box .box-set {
+        padding: 20px 0;
+    }
+
+    /*camps*/
+
+    .camps .capm__catalogs .capm__catalogs-btns .camp-btn {
+        padding: 15px 25px;
+    }
+
+    .camps .camp__items-old {
+        padding-bottom: 444px;
+    }
+
+    /* SPECIAL*/
+
+    .special__img {
+        max-width: 535px;
+        width: 50%;
+    }
+
+    /* special-offer*/
+
+    .special-offer .special-offer__box {
+        padding: 40px 0;
+    }
+
+    .social .social__wrapper {
+        padding-bottom: 0;
+    }
+
+    .advantages .advantages__title {
+        padding-bottom: 40px;
+    }
+
+    .advantages .advantages__wrapper {
+        padding-top: 45px;
+    }
+
+    .footer .footer__info {
+        padding: 30px 0 0 30px;
+    }
+
+    .footer .footer__info-title {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+
+    .footer .footer__info-adress {
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .footer .footer__info-time {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .footer .footer__info--telephone {
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+
+    .footer .footer-email {
+        padding: 20px 0;
+
+    }
+
+}
+
+@media (max-width:950px) {
+    .special-offer .box-set {
+        padding: 40px 60px 45px 60px;
+    }
+
+    .special-offer .special-offer__wrapper {
+        padding-bottom: 0px;
+    }
+
+    .social__top-left img {
+        width: 100%;
+    }
+
+    .social__top-left {
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .social__top-right {
+        text-align: center;
+    }
+
+    .social .social__top {
+        flex-wrap: wrap;
+    }
+
+    .social .social__text {
+        padding: 45px 10px;
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    .social .social__subtext,
+    .social .social__subtitle {
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    .command .command__bottom-title {
+        padding-bottom: 25px;
+    }
+
+    .training .training__wrapper {
+        padding: 30px 0;
+
+    }
+
+    .step .step__box .box__inner+.box__inner::before {
+        left: -50px;
+    }
+
+}
+
+@media (max-width:870px) {
+    .special-offer .special-offer__comfort-items {
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+        padding-left: 30px;
+    }
+
+    .special-offer .special-offer__comfort-items .comfort-item {
+        max-width: 100%;
+        height: 85px;
+
+    }
+
+    .special-offer .special-offer__comfort-items .comfort-item::before {
+        top: -15px;
+    }
+
+    .command__bottom-items {
+        flex-wrap: wrap;
+    }
+
+    .command .command__bottom-item+.command__bottom-item {
+        margin-left: 0;
+
+    }
+
+    .command .command__bottom-item {
+        padding-bottom: 20px;
+    }
+
+    .training .box__inner .box__inner-title {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .training .box__inner .box__inner-text {
+        font-size: 12px;
+    }
+
+    .license .license__images {
+        flex-wrap: wrap;
+    }
+
+    .license__images .license__item {
+        padding-bottom: 30px;
+    }
+
+    .license__item .license__subtitle {
+        padding-top: 10px;
+    }
+
+
+}
+
+@media (max-width:810px) {
+    .training .box__inner::before {
+        display: none;
+    }
+
+    .training .box__inner+.box__inner {
+        margin-left: 0;
+    }
+
+    .training .box__inner span {
+        font-weight: 600;
+    }
+
+    .awards__wrapper .awards__box-images {
+        flex-wrap: wrap;
+    }
+
+    .awards__box-images .awards__box-img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:630px) {
+    .header__top {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .header__top .header__call {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-height: 100%;
+    }
+
+    .header__top .header__call .header__btn {
+        padding: 19px 19px;
+    }
+
+    .header__bottom .header__bottom-title {
+        text-align: center;
+        font-size: 40px;
+        line-height: 85px;
+    }
+
+    .header__bottom .header__bottom-text {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .header .header__bottom {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .header__bottom .header__botton-inners {
+        padding-top: 30px;
+    }
+
+    /* camp*/
+    .camps .camps__inner {
+        padding-top: 50px;
+    }
+
+    .camps .capm__header .capm__header-text {
+        padding-bottom: 25px;
+    }
+
+    .camps .capm__catalogs .capm__catalogs-btns {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .camps .camp__items-old {
+        padding-bottom: 350px;
+    }
+
+    /*special-offer*/
+
+    .special__img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .social .box-set {
+        padding: 0;
+    }
+
+    .command .command__wrapper {
+        padding: 50px 0;
+    }
+
+    .command .command__director {
+        padding-bottom: 30px;
+    }
+
+    .command .command__director {
+        flex-wrap: wrap;
+    }
+
+    .command .command__director-img {
+        width: 100%;
+    }
+
+    .command .command__director-info {
+        padding-left: 0px;
+        margin: 0 auto;
+        padding-top: 17px;
+    }
+
+    .command__director-info .director__info-position {
+        padding: 10px 0 5px;
+    }
+
+    .director__info-xp ul {
+        margin-left: 60px;
+    }
+
+    .license .license__wrapper {
+        padding: 30px 0;
+    }
+
+    .awards .awards__wrapper {
+        padding: 50px 0;
+    }
+
+
+    /*FOOTER*/
+
+
+    .footer .footer__wrapper {
+        display: block;
+    }
+
+    .footer .footer__map {
+        width: 100%;
+    }
+
+    .footer .footer__info {
+        padding: 10px 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .footer__info-email {
+        max-width: 100%;
+    }
+
+    .footer .footer__info-title {
+        font-size: 18px;
+        padding: 0 15px 20px 15px;
+    }
+
+}
+
+@media (max-width:540px) {
+    .camps .camp__items-old .camp__item .camp__item-title {
+        font-size: 12px;
+        padding: 10px 0 10px 0;
+    }
+
+    .camps .camp__items-old .camp__item .camp__item-text {
+        font-size: 12px;
+    }
+
+    .camps .camp__items-old .camp__item .camp__item-btn {
+        margin: 10px 0 10px;
+    }
+
+    .camps .camp__items-old {
+        padding-bottom: 265px;
+    }
+
+    .special-offer .box-set {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .step .step__box .box__inner+.box__inner::before {
+        display: none;
+    }
+
+    .step .box__inner+.box__inner {
+        margin-left: 0;
+    }
+
+    .license .license__title {
+        font-size: 20px;
+        padding: 0 15px 50px 15px;
+    }
+
+    .awards .awards__title {
+        font-size: 20px;
+    }
+
+    .awards .awards__box-title {
+        font-size: 18px;
+        padding: 25px 0;
+    }
+
+}
+
+@media (max-width:430px) {
+    .header__bottom .header__bottom-title {
+        text-align: center;
+        font-size: 33px;
+        line-height: 85px;
+    }
+
+    .header__bottom .header__bottom-text {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .header .header__bottom {
+        padding: 15px 5px 0 5px;
+
+    }
+
+    .header__top .header__call .header__btn {
+        margin-left: 2px;
+    }
+
+    .box .box-subtitle span {
+        margin-left: 0;
+    }
+
+    .camps .camp__items-old {
+        padding-bottom: 240px;
+    }
+}
